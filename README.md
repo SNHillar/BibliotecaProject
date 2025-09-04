@@ -97,10 +97,10 @@ El desarrollo se organiza en **7 Checkpoints**, cada uno enfocado en un concepto
 
 - [x] Abstracción y Encapsulamiento
 - [x] Operaciones Básicas y Lógica de Negocio
-- [x] Herencia y Polimorfismo
-- [x] Interfaces y Flexibilidad
-- [x] Collections y Generics
-- [x] Documentación y Diseño (UML)
-- [x] Patrones de Diseño y Optimización
+- [ ] Herencia y Polimorfismo
+- [ ] Interfaces y Flexibilidad
+- [ ] Collections y Generics
+- [ ] Documentación y Diseño (UML)
+- [ ] Patrones de Diseño y Optimización
 
 ---
