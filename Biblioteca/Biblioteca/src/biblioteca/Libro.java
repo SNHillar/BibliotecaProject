@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 
 
-public class Libro {
+public abstract class Libro {
     
     
     private String titulo;
@@ -14,6 +14,18 @@ public class Libro {
     private String ISBN;
     private EstadoLibro estado; 
 
+    public Libro(String titulo, String autor, int anioPublicacion, String ISBN, EstadoLibro estado) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.anioPublicacion = anioPublicacion;
+        this.ISBN = ISBN;
+        this.estado = estado;
+    }
+    
+    public void mostrarLibro(){
+        
+    }
+    
     public String getTitulo() {
         return titulo;
     }
@@ -58,10 +70,10 @@ public class Libro {
         this.estado = estado;
     }
 
-    
-
-    
-    
+    @Override
+    public String toString() {
+        return "Libro{" + "titulo=" + titulo + ", autor=" + autor + ", anioPublicacion=" + anioPublicacion + ", ISBN=" + ISBN + ", estado=" + estado + '}';
+    }
     
     
 }

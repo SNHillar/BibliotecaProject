@@ -7,9 +7,22 @@ import java.util.ArrayList;
 public class Biblioteca {
     
     ArrayList<Libro> misLibros = new ArrayList<>();
+
+    public Biblioteca() {
+        
+    }
+    
+    
     
     public void agregarLibro(Libro libro){
         misLibros.add(libro);
+    }
+    
+    
+    public void mostrarLibro(){
+        for(Libro libro : misLibros){
+            libro.mostrarLibro();
+        }
     }
     
     
@@ -18,6 +31,8 @@ public class Biblioteca {
             System.out.println("Libro: " + e);
         }
     }
+    
+    
     
     public void prestarLibro(String isbn){
         for(Libro e : misLibros){
